@@ -1,9 +1,21 @@
-table {
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablaAlumnos {
     width: 30%;
     border-collapse: collapse;
     margin: 20px auto;
 }
 tr th{
+    align-items: center;
     border: 1px solid black;
     background-color: rgb(214, 250, 159);
 }
@@ -13,5 +25,39 @@ table, th, td {
 th, td {
     padding: 8px;
     text-align: left;
-    background-color: rgb(250, 185, 185);
+    background-color: rgb(208, 185, 250);
 }
+.botones{
+    background-color: white;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.inscription {
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 129, 129);
+}
+.inscription h5 {
+    margin-bottom: 10px;
+}
+.inscription div input {
+    margin-bottom: 10px;
+}
+.inscription div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
